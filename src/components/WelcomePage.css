@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gowun+Dodum&family=Work+Sans:wght@200&display=swap");
+
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.introPage{
+    margin: 0px;
+    background-color:#EDFFFE;
+}
+
+.imageFront{
+    width: 50%;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.subbanner{
+
+    width: 30%;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.subsubbanner{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+button {
+    margin-right: 40px;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    font-family: 'work-sans', sans-serif;    
+    font-size: 60px;
+    text-align: right;
+    border: 2px solid #575F66;
+    border-radius: 30px;
+    border-width: 2px;
+    padding: 7px 20px;
+
+  }
+a{
+    text-decoration: none;
+    color: #575F66;
+
+}
+
+  .buttonFormat{
+      text-decoration: none;
+      text-align: center;
+      font-size: 30px;
+     
+  }
+  
+  button:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+
+  button:active {
+    outline: none;
+    border: none;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+.hoverfun:hover span{
+    display: none;
+}
+
+.hoverfun:hover:after{
+    content: " ☑️";
+}
