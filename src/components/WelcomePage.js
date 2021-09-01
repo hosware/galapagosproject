@@ -11,13 +11,13 @@ export default class WelcomePage extends Component {
             <section className="introPage">
                 <div className='introPage'>
                     <div className='banner'>
-                        <img class= "imageFront" src={blueboobies}></img>
-                        <div class="subbanner">
-                        <h1>Envíos Piquero</h1>
-                        <h2>Envios 📦 a Galápagos 🐢 </h2>
+                        <img className= "imageFront" src={blueboobies}></img>
+                        <div className="subbanner">
+                        <h1 className= "mainTitle">Envíos <span className="piquero">Piquero</span></h1>
+                        <h2 className="tagLine">Envios 📦 a Galápagos 🐢 </h2>
                         <div class="subsubbanner">
-                          <button className = "buttonFormat"> <Link to="signup"> <span className= "hoverfun"> WhatsApp </span> </Link></button>
-                          <button className = "buttonFormat"> <Link to="signup"> <span className= "hoverfun">  Llámanos </span></Link></button>
+                          <button className = "buttonFormat"> <Link to="signup"> <span className= "hoverfunWS hoverfun"> WhatsApp </span> </Link></button>
+                          <button className = "buttonFormat"> <Link to="signup"> <span className= "hoverfunCall hoverfun">  Llámanos </span></Link></button>
                         </div>
                         </div>
                     </div>

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gowun+Dodum&family=Work+Sans:wght@200&display=swap");
+
+body{
+   
+    background-color:#EDFFFE;
+}
+
+ul{
+    margin-left: 80px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 60px;
+    padding: 7px 20px;
+}

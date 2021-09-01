@@ -3,7 +3,7 @@ import React from 'react';
 //import ProtectedRoute from './components/ProtectedRoute';
 import { Route, Redirect } from 'react-router-dom';
 import WelcomePage from './components/WelcomePage';
-// import NavBar from './components/NavBar';
+import NavBar from './components/NavBar';
 
 class App extends React.Component {
 
@@ -12,6 +12,8 @@ class App extends React.Component {
 
     return (
       <div>
+        <NavBar />
+
         <Route
           exact path='/'
           render={props => <WelcomePage />}

@@ -29,6 +29,19 @@ body{
     align-items: left;
 }
 
+.mainTitle{
+    font-size: 40px;
+}
+.piquero{
+    text-decoration: underline;
+    text-decoration-color: #89CEDA;
+    text-decoration-thickness: 4px;
+}
+
+.tagLine{
+    font-size: 25px;
+}
+
 .subsubbanner{
     margin-top: 20px;
     display: flex;
@@ -41,11 +54,8 @@ button {
     margin-right: 40px;
     background: transparent;
     box-shadow: 0px 0px 0px transparent;
-    border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
     font-family: 'work-sans', sans-serif;    
-    font-size: 60px;
-    text-align: right;
     border: 2px solid #575F66;
     border-radius: 30px;
     border-width: 2px;
@@ -68,7 +78,7 @@ a{
   button:hover {
     background: transparent;
     box-shadow: 0px 0px 0px transparent;
-    border: 0px solid transparent;
+    border: 2px solid #FF8811;
     text-shadow: 0px 0px 0px transparent;
   }
 
@@ -85,6 +95,10 @@ a{
     display: none;
 }
 
-.hoverfun:hover:after{
-    content: " ☑️";
+.hoverfunWS:hover:after{
+    content: " 💬";
+}
+
+.hoverfunCall:hover:after{
+    content: " 📞";
 }
